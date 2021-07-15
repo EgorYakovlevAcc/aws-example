@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar aws-example/target/example-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/example-0.0.1-SNAPSHOT.jar
