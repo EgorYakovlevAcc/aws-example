@@ -13,6 +13,7 @@ public class ExampleController {
     @GetMapping("/")
     public List<User> getUsers() {
         List<User> users = List.of(new User(1, "Egor"));
+
         return users;
     }
 }
